@@ -7,6 +7,18 @@ public class DefaultCountingOutRhymer {
     private static final int IF_EMPTY_RETURN = -1;
     private final int[] NUMBERS = new int[CAPACITY];
 
+    public static int getCAPACITY() {
+        return CAPACITY;
+    }
+
+    public static int getEmptyRhymerIndicator() {
+        return EMPTY_RHYMER_INDICATOR;
+    }
+
+    public static int getIfEmptyReturn() {
+        return IF_EMPTY_RETURN;
+    }
+
     public int getTotal() {
         return total;
     }
@@ -38,4 +50,11 @@ public class DefaultCountingOutRhymer {
         return NUMBERS[total--];
     }
 
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
+    public int[] getNUMBERS() {
+        return NUMBERS;
+    }
 }
