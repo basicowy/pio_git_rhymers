@@ -1,3 +1,6 @@
+//Projekt jest poprawny, niepotrzeba zmian
+
+
 package edu.kis.vh.nursery;
 
 import org.junit.Assert;
