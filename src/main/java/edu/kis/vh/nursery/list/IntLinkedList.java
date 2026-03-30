@@ -9,6 +9,7 @@ public class IntLinkedList {
     public boolean isEmpty() {
         return last == null;
     }
+    //TODO: zrefaktoryzować klase node do IntLinkedList ale juz to zrobiłem podczas wykonywania punktu 14
     private static class Node {
 
         private final int value;
